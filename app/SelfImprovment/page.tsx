@@ -23,14 +23,9 @@ const SelfImprovement = () => {
       <div className="flex flex-row justify-between items-center">
         <motion.div
           className="inline-block"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          transition={{ duration: 1.9, type: "spring", bounce: "0.1" }}
-          variants={{
-            visible: { opacity: 1, scale: 1, y: 0, x: 0 },
-            hidden: { opacity: 0, scale: 0, x: "-50%" },
-          }}
+          initial={{ opacity: 0, scale: 0 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1.9, type: "spring", bounce: 0.1 }}
         >
           <div className="text-xl font-bold text-black">
             What&apos;s wrong with self-improvement & how we&apos;re fixing it.
@@ -40,20 +35,9 @@ const SelfImprovement = () => {
           </div>
         </motion.div>
         <motion.div
-          viewport={{ once: true }}
+          initial={{ opacity: 0, x: -50 }}
+          animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 2.1, ease: "easeInOut", type: "spring", delay: 0.3 }}
-          initial="hidden"
-          whileInView="visible"
-          variants={{
-            visible: {
-              opacity: 1,
-              scale: 1,
-              x: [0, -100, -300, -450, -500],
-              y: [35, 20, 10, 0, -10],
-              rotate: [-60, -45, -35, -35, -35, -35, -15],
-            },
-            hidden: { opacity: 0, scale: 0 },
-          }}
           className="flex items-center justify-center"
         >
           <Image
@@ -71,9 +55,8 @@ const SelfImprovement = () => {
             {selfImprovementData.map((item: SelfImprovementItem, index: number) => (
               <motion.div
                 key={index}
-                initial="from"
-                animate="to"
-                variants={customAnimation}
+                initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 1.5, ease: "easeInOut" }}
                 className="max-w-[40rem] relative align-top pl-8"
               >
