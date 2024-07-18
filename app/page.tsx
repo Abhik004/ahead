@@ -13,15 +13,10 @@ import Footer from "./Footer/page";
 
 
 export default function Home() {
-  const navLinks = [
-    { name: "Emotion", url: "/emotion" },
-    { name: "Manifesto", url: "/manifesto" },
-    { name: "Self-awareness test", url: "/self-awareness-test" },
-    { name: "Work With Us", url: "/work-with-us" },
-  ];
+  
   return (
     <div className="max-w-[1440px] m-auto">
-      <Navbar logo={Logo} links={navLinks} button="Download" />
+      <Navbar />
       <HomePage title="Ahead app" />
       <EQbeatsIQ />
       <SoundsFamiliar />
