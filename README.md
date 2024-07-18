@@ -21,55 +21,19 @@ This is a Next.js project bootstrapped with `create-next-app`.
 
 #### Using npm
 
-bash
-Verify
-Open In Editor
-
-Edit
-
-Run
-
-Copy code
-1npm run dev
+npm run dev
 
 #### Using yarn
 
-bash
-Verify
-Open In Editor
-
-Edit
-
-Run
-
-Copy code
-1yarn dev
+yarn dev
 
 #### Using pnpm
 
-bash
-Verify
-Open In Editor
-
-Edit
-
-Run
-
-Copy code
-1pnpm dev
+pnpm dev
 
 #### Using bun
 
-bash
-Verify
-Open In Editor
-
-Edit
-
-Run
-
-Copy code
-1bun dev
+bun dev
 
 Open http://localhost:3000 with your browser to see the result.
 
@@ -103,11 +67,6 @@ The easiest way to deploy your Next.js app is to use the Vercel Platform from th
 
 Check out our Next.js deployment documentation for more details.
 
-  
-
-## **CSS**
-
-Copy code
 
   
 
