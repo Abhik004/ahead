@@ -53,7 +53,7 @@ const Work = () => {
               <div className="flex flex-col gap-3 p-4 md:p-6">
                 <h2 className="text-lg md:text-xl font-bold">About</h2>
                 <p className="text-sm md:text-base font-normal">
-                  At ahead, our goal is to make self-improvement fun and lasting. We know there's a way to make it work. That's what ahead is all about!
+                  At ahead, our goal is to make self-improvement fun and lasting. We know there&apos;s a way to make it work. That&apos;s what ahead is all about!
                 </p>
               </div>
 

@@ -32,8 +32,8 @@ const Test = () => {
       <p className="text-center text-lg md:text-2xl">We take Privacy seriously</p>
       <p className="font-bold text-xl md:text-3xl">Before you get started</p>
       <p className="text-sm md:text-xl font-normal">
-        &quot;We Won't share your answers with anyone.
-        <br /> (and won't tell you which friends said what about you).&quot;
+        &quot;We Won&apos;t share your answers with anyone.
+        <br /> (and won&apos;t tell you which friends said what about you).&quot;
       </p>
       <div className="flex flex-row gap-2 items-center justify-center">
         <p className="text-xs md:text-sm">Made with Love...</p>
